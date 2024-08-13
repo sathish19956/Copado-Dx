@@ -1,5 +1,7 @@
 public class MyContactListController {
 
+    
+    //Conflicts testing by another user
     @AuraEnabled
 public static List<Contact> getContacts(Id recordId) {
    return [SELECT Id, FirstName, LastName, Email, Phone FROM Contact WHERE AccountId = :recordId];
