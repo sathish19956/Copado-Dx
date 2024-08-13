@@ -3,19 +3,4 @@
     <fullName>customer_test</fullName>
     <active>true</active>
     <label>customer test</label>
-    <picklistValues>
-        <picklist>status1__c</picklist>
-        <values>
-            <fullName>Active</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Outdated</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Updated</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
 </RecordType>
