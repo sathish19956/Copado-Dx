@@ -6,6 +6,8 @@
     {label:"Last Name", fieldName:"LastName", type:"text"},
     {label:"Phone", fieldName:"Phone", type:"phone"}
 ]);
+        
+        //Conflicts testing by another user
 
         var action = component.get("c.getContacts");
 action.setParams({
