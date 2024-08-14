@@ -7,7 +7,7 @@
     {label:"Phone", fieldName:"Phone", type:"phone"}
 ]);
         
-        //Conflicts testing first testin by another user
+        //Conflicts testing testing with the user story2 first testin by another user
 
         var action = component.get("c.getContacts");
 action.setParams({

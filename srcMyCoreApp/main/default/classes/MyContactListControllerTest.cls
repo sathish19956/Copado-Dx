@@ -5,7 +5,7 @@ private class MyContactListControllerTest {
         Account testAccount = new Account(Name = 'Test Account');
         insert testAccount;
         
-        //Conflicts testing first first testin testing by another user
+        //Conflicts testing testing with the user story2   by another user
 
         Contact contact1 = new Contact(FirstName = 'John', LastName = 'Smith', Email = 'john.smith@example.com', Phone = '1234567890', AccountId = testAccount.Id);
         Contact contact2 = new Contact(FirstName = 'Jane', LastName = 'Doe', Email = 'jane.doe@example.com', Phone = '0987654321', AccountId = testAccount.Id);
@@ -16,7 +16,7 @@ private class MyContactListControllerTest {
         List<Contact> contacts = MyContactListController.getContacts(testAccount.Id);
         Test.stopTest();
         
-        //Conflicts testing first testin by another user
+        //Conflicts testing with the user story2 testing first by another user
 
         // Assertions
         System.assertEquals(2, contacts.size(), 'There should be two contacts related to the test account.');
