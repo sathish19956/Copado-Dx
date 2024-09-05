@@ -13,3 +13,7 @@ package.xml
 
 # Git Structure Files
 **/*.gitkeep
+
+**/tsconfig.json
+
+**/*.ts
