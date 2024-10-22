@@ -9,4 +9,4 @@
 #**/pages/*.page
 #**/layouts/*.layout-meta.xml
 **/aura/**
-
+**/staticresources/*
